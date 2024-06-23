@@ -8,3 +8,4 @@ This repository contains the code for a Simon game. It includes HTML, CSS, and J
 - `style.css`: The CSS file for styling the web page.
 - `app.js`: The JavaScript file containing the game logic.
 
+### [Project Link](https://zaid78602.github.io/Simon-game/)
