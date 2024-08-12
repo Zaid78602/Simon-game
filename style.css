@@ -30,7 +30,17 @@ body{
 .black{
     background-color: black;
 }
-
+.start-btn{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.203);
+    color: rgb(0, 0, 0);
+    border: 5px solid black;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
 /* media quaries */
 @media (max-width: 431px){
     .btn {
