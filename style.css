@@ -8,21 +8,21 @@ body{
 .btn{
     height: 200px;
     width: 200px;
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 20%;
     margin: 15px;
 }
 .red{
-    background-color: rgb(247, 72, 72);
+    background-color: rgb(196, 72, 117);
 }
 .green{
-    background-color: rgb(73, 255, 73);
+    background-color: rgb(44, 200, 148);
 }
 .blue{
-    background-color: rgb(57, 57, 255);
+    background-color: rgb(217, 170, 30);
 }
 .yellow{
-    background-color: rgb(255, 255, 74);
+    background-color: rgb(21, 134, 204);
 }
 .white{
     background-color: white;

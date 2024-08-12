@@ -4,6 +4,7 @@ let userSeq = [];
 let color = ["red", "green", "blue", "yellow"];
 
 let started = false;
+let highScore = 0;
 let level = 0;
 
 let h2 = document.querySelector("h2");
@@ -40,8 +41,11 @@ function userflash(randBtn){
 
 function levelUp(){
     userSeq = [];
+    if(highScore<level){
+        highScore = level;
+    }
     level++;
-    h2.innerText = `Level ${level}`;
+    h2.innerText = `Level ${level}  (Highscore: ${highScore})`;
 
     let randIdx = Math.floor(Math.random() * 4); 
     let randClr = color[randIdx];
